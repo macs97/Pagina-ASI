@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/content.css">    
+    <title>Items</title>
+</head>
+<body>
+    <nav class="navbar navbar-default" id="menu">
+        <div class="container-fluid">         
+            <ul class="nav navbar-nav">
+                
+                <li id="1"><a href="content.html">Gestión de la Identidad y Acceso a Recursos</a></li>
+                <li id="2"><a href="#">Gestión de desktops, servidores y dispositivos</a></li>
+                <li id="3"><a href="#">Gestión de Redes y Seguridad</a></li>
+                <li id="4"><a href="#">Protección y Restauración de Datos</a></li>                    
+            </ul>
+            <ul class="nav navbar-nav navbar-right">                    
+                <li onclick="cerrarSesion()"><a href="index.html"><span class="glyphicon glyphicon-log-out"></span> Cerrar sesión</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <form class="form-group" id="formulario">
+            <table id="result" class="table table-bordered table-responsive{-md}"></table>
+                
+            </table>   
+                     
+    </form>         
+            
+    <div class="graficas" id="graficas">
+        <div class="mejora">
+            
+        </div>
+        <canvas id="grafica1"></canvas>
+        <canvas id="grafica2"></canvas>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+        <script src="js/content.js"></script>
+        
+</body>
+</html>

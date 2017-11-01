@@ -1,0 +1,14 @@
+form{
+    top: 15% !important;
+    display: inline-block;
+    width: 70%;
+    justify-content: center;
+    position: absolute;
+    left: 15%;    
+    padding: 41px;
+}
+
+button{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
